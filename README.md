@@ -3,9 +3,9 @@
 ### Expressions is where art, words, and humor come together in one location to meet your expressive needs with ease.
 
 ## Features
-- Nav bar drop down for easy access to pages
+- Nav bar drop down for easy access to pages @media
 - Easy to use interface
-- GIF page with a search bar for keywords
+- GIF search bar for keywords
 
 ### Designed for easy access to photos, quotes and GIF's to share through social media, text, E-mail and more. 
 
@@ -16,5 +16,6 @@
 - JS
 
 ### Ideas for improvement:
- - Pagentation bar
+ - Pagination bar
  - Use of SCSS
+ - Completed links pages with contact form
