@@ -1,4 +1,4 @@
-const apiKey = 'apikey'; 
+const apiKey = 'api-key'; 
 const searchButton = document.getElementById('search-button');
 const searchInput = document.getElementById('search-input');
 const gifContainer = document.getElementById('gif-container');
