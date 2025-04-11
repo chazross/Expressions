@@ -13,7 +13,13 @@ searchButton.addEventListener('click', () => {
 
 async function fetchGifs(query) {
     try {
-        const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}&limit=10`);
+        const encodedQuery = encodeURIComponent(query);
+        const response = await fetch(`API`); //API goes here / token
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
         const data = await response.json();
         displayGifs(data.data);
     } catch (error) {
